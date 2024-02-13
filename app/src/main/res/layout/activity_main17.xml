@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4E5EA"
+    android:orientation="vertical"
+    tools:context=".MainActivity17">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="#90A9AC"
+        android:layout_marginTop="50dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#90A9AC"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="70dp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HDR"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                >
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/baseline_brightness_high_24"
+
+                android:layout_marginLeft="70dp"
+                android:textColor="@color/black"
+                >
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slo-mo"
+            android:backgroundTint="#C4E5EA"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Video"
+            android:backgroundTint="#C4E5EA"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            >
+
+        </TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photo"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#8A77CFDA"
+            android:textColor="@color/black"
+            >
+
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Square"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#C4E5EA"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Portrait"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#C4E5EA"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/gallery"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/circle2"
+            android:layout_marginLeft="40dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/video"
+            android:layout_marginLeft="50dp"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
