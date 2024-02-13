@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
-        android:text="Forgot password?"
+        android:text="Reset Password?"
         android:textSize="30dp"
         android:textColor="#009688"
         android:textStyle="bold"
@@ -32,7 +32,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
-        android:text="Don’t worry! It happens. Please enter the email associated with your account"
+        android:text="Please type a new password and re-enter the
+password. Type something you will
+remember"
         android:layout_marginRight="10dp"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -44,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="20dp"
-        android:text="Email"
+        android:text="New Password"
         android:layout_marginRight="10dp"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -58,7 +60,31 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
         android:background="@color/white"
-        android:text="Enter Email..."
+        android:text="Enter New Password..."
+        android:padding="10dp"
+        >
+
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:text="Confirm Password"
+        android:layout_marginRight="10dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:text="Re-Enter Password..."
         android:padding="10dp"
         >
 
@@ -69,7 +95,7 @@
         android:backgroundTint="#009688"
         android:layout_marginTop="70dp"
         android:layout_gravity="center"
-        android:text="Send"
+        android:text="Reset Password"
         >
 
     </Button>
@@ -83,7 +109,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
-        android:text="Remember your password?"
+        android:text="Don’t want to reset password?"
         android:textSize="20dp"
             android:backgroundTint="@color/black"
         android:textStyle="bold"
